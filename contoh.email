@@ -1,0 +1,13 @@
+Received: from server.example.com (unknown [172.173.174.175])
+        by mail.example.com (Postfix) with ESMTPSA id D256C3E4109
+        for <user2@example.com>; Fri, 24 May 2019 13:31:28 +0700 (WIB)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Testing fake from and return-path
+From: user2@example.com
+To: user2@example.com
+Message-Id: &lt;20190524063128.D256C3E4109@mail.example.com&gt;
+Date: Fri, 24 May 2019 13:31:28 +0700 (WIB)
+
+Test improvement from and return-path did not match
